@@ -1,0 +1,42 @@
+.header {
+    text-align: center;
+    background: white;
+}
+
+.layout {
+    margin: auto;
+    position: relative; /* Относительное позиционирование */
+}
+.sidebar, .content{ position: absolute; }
+.sidebar, .header1, .select{
+    background: #FFF5EE; /* Цвет фона */
+    width: 350px; /* Ширина колонки */
+    float: left;
+}
+.content, .header2{
+    background: #F4ECCE; /* Цвет фона */
+    margin-left: 350px; /* Сдвиг вправо */
+    width: 100%; /* Ширина колонки */
+}
+
+
+#search {
+    width: 300px;
+    font-style: italic;
+}
+
+::-webkit-scrollbar{
+    width:12px;
+}
+::-webkit-scrollbar-thumb{
+    border-width:1px 1px 1px 2px;
+    border-color: #777;
+    background-color: #aaa;
+}
+::-webkit-scrollbar-track{
+    border-width:0;
+}
+::-webkit-scrollbar-track:hover{
+    border-left: solid 1px #aaa;
+    background-color: #eee;
+}
