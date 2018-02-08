@@ -123,6 +123,9 @@ html, body {
     font-weight: bold;
 
 }
+.content .order_information .order_summ {
+    font-size: 20px;
+}
 
 .content .order_information .order_summ,
 .content .order_information .order_summ_curr {
@@ -131,7 +134,8 @@ html, body {
 }
 
 .content .order_information .order_summ_curr {
-    line-height: 0;
+    line-height: 0.5;
+
 }
 .content .icons {
     height: 60px;
@@ -213,7 +217,7 @@ footer {
     height: 30px;
     min-width: 80%;
     z-index: 5;
-    clear: both;
+
 }
 
 footer .left_footer {
