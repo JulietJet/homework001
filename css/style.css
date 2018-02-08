@@ -108,6 +108,7 @@ html, body {
     right: 0px;
     left: 350px;
     position: absolute;
+
 }
 .order_information {
     height: 180px;
@@ -129,4 +130,16 @@ html, body {
 
 .content .order_information .order_summ_curr {
     line-height: 0;
+}
+.content .icons {
+    height: 60px;
+    border-bottom: 2px solid #9EC1D4;
+    padding: 10px 20px;
+}
+.content .icons i:last-child{
+    margin-left: 10px;
+}
+
+.content .icons i:hover {
+    background: lightgrey; /* Цвет фона активного пункта */
 }
