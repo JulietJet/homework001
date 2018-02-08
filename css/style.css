@@ -1,7 +1,7 @@
 html, body {
-    background: lightskyblue;
+    background: #CEECF5;
     margin: 0;
-    padding: 0 !important;
+    padding: 0 ;
     width: 100%;
 
 }
@@ -49,6 +49,7 @@ html, body {
     background: white;
     width:  350px;
     position: absolute;
+    margin-bottom: 10px;
 }
 
 .sidebar .search #search_field {
@@ -108,9 +109,9 @@ html, body {
     right: 0px;
     left: 350px;
     position: absolute;
-    height: 100vh !important;
-
+    height: inherit;
 }
+
 .order_information {
     height: 180px;
     margin-top: 20px;
@@ -146,6 +147,7 @@ html, body {
 }
 
 .content .shipping_information {
+
     padding: 20px;
     border-bottom: 1px solid #9EC1D4;
 }
@@ -164,6 +166,8 @@ html, body {
 
 .content .line_items {
     padding: 20px;
+    margin-bottom: 20px;
+
 }
 
 .content .line_items .line_items_title {
@@ -177,7 +181,6 @@ html, body {
 .content .line_items .line_items_table {
     text-align: center;
     margin-top: 10px;
-
 }
 
 .content .line_items .line_items_table td {
@@ -202,4 +205,22 @@ html, body {
     border-bottom: 1px solid #9EC1D4;
 }
 
+footer {
+    background: #0A0A2A;
+    position: fixed;
+    bottom: 0;
+    margin-left: 200px;
+    height: 30px;
+    min-width: 80%;
+    z-index: 5;
+    clear: both;
+}
+
+footer .left_footer {
+    color: white;
+    width:  350px;
+    text-align: right;
+    padding: 5px;
+    border-right: 1px solid #9EC1D4;
+}
 
