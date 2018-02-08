@@ -1,59 +1,60 @@
+html, body {
+    background: lightskyblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
 .header {
+    position: fixed;
     text-align: center;
-    background: #FFF5EE;
+    background: white;
+    margin: 0 200px;
+    min-width: 80%;
+    z-index: 5;
 
 }
 
 .header1,
 .header2 {
-    height: 30px;
+    height: 20px;
     padding: 5px 0px;
     border-bottom: 1px solid #9EC1D4;
 
 
 }
 
-.layout {
-    margin: auto;
-    position: relative; /* Относительное позиционирование */
-
-}
-.sidebar,
-.content {
-    position: absolute;
-    background: #FFF5EE;
-
-}
-
-.sidebar,
-.header1,
-.sidebar .select_items {
-    /* Цвет фона */
-    width: 350px; /* Ширина колонки */
+.header1 {
+    margin: 0 0;
+    width:  350px;
     float: left;
+    border-right: 1px solid #9EC1D4;
+
 }
 
-.sidebar .search {
-    border-bottom: 1px solid #9EC1D4;
+.sidebar {
+    background: white;
+    width:  350px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 31px;
 }
 
 .sidebar .search #search_field {
     width: 300px;
     font-style: italic;
-
+    margin: 1px;
 }
 
 .sidebar .select_items {
     height: 100vh;
     overflow-y: auto;
 }
-
-
 .select_items div{
     padding: 10px 10px;
     border-bottom: 1px solid #9EC1D4;
 }
-
 .select_items div:hover {
     background: lightgrey; /* Цвет фона активного пункта */
 }
@@ -66,12 +67,10 @@
     font-size: 20px;
     font-weight: bold;
 }
-
 .sidebar .select_items .order_date {
     font-size: 23px;
     font-weight: bold;
 }
-
 .sidebar .select_items .order_status {
     color: green;
 }
@@ -79,7 +78,6 @@
 .sidebar .select_items div:nth-child(2) .order_status,
 .sidebar .select_items div:last-child .order_status {
     color: orange;
-    min-width: 1000px;
 }
 
 ::-webkit-scrollbar{
@@ -94,12 +92,3 @@
 ::-webkit-scrollbar-track {
     border-width: 0;
 }
-
-.content,
-.header2 {
-
-    margin-left: 350px; /* Сдвиг вправо */
-
-
-}
-
