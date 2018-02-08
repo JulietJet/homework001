@@ -33,12 +33,22 @@ html, body {
 
 }
 
+
+.fullcontent {
+    position: absolute;
+    background: white;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 31px;
+    min-width: 80%;
+    z-index: 5;
+}
+
+
 .sidebar {
     background: white;
     width:  350px;
     position: absolute;
-    margin-left: 200px;
-    margin-top: 31px;
 }
 
 .sidebar .search #search_field {
@@ -69,7 +79,7 @@ html, body {
 }
 .sidebar .select_items .order_date {
     font-size: 23px;
-    font-weight: bold;
+    font-weight: lighter;
 }
 .sidebar .select_items .order_status {
     color: green;
@@ -91,4 +101,27 @@ html, body {
 
 ::-webkit-scrollbar-track {
     border-width: 0;
+}
+
+.content {
+    background: white;
+    right: 0px;
+    left: 350px;
+    position: absolute;
+}
+.order_information {
+    height: 180px;
+    margin-top: 20px;
+}
+
+.content .order_information .order_id {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.content .order_information .order_location,
+.content .order_information .order_ordered_date,
+.content .order_information .order_shipped_date {
+    padding: 30px;
 }
