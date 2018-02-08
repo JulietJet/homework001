@@ -143,3 +143,21 @@ html, body {
 .content .icons i:hover {
     background: lightgrey; /* Цвет фона активного пункта */
 }
+
+.content .shipping_information {
+    padding: 20px;
+    border-bottom: 1px solid #9EC1D4;
+}
+
+.content .shipping_information .address {
+    width: 100%;
+    border-bottom: 1px solid #9EC1D4;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.content .shipping_information .information {
+    margin-left: 70px;
+}
+
