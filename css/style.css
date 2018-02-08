@@ -1,7 +1,7 @@
 html, body {
     background: lightskyblue;
     margin: 0;
-    padding: 0;
+    padding: 0 !important;
     width: 100%;
 
 }
@@ -108,6 +108,7 @@ html, body {
     right: 0px;
     left: 350px;
     position: absolute;
+    height: 100vh !important;
 
 }
 .order_information {
@@ -160,4 +161,45 @@ html, body {
 .content .shipping_information .information {
     margin-left: 70px;
 }
+
+.content .line_items {
+    padding: 20px;
+}
+
+.content .line_items .line_items_title {
+    width: 100%;
+    border-bottom: 1px solid #9EC1D4;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.content .line_items .line_items_table {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.content .line_items .line_items_table td {
+   width: 30%;
+    vertical-align: center;
+    margin: 5px;
+
+}
+
+.content .line_items .line_items_table td:first-child,
+.content .line_items .line_items_table th:first-child {
+    text-align: left;
+
+}
+
+.content .line_items .line_items_table td:last-child,
+.content .line_items .line_items_table th:last-child {
+    text-align: right;
+}
+
+.content .line_items .line_items_table {
+    border-bottom: 1px solid #9EC1D4;
+}
+
 
