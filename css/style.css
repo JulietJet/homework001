@@ -112,16 +112,21 @@ html, body {
 .order_information {
     height: 180px;
     margin-top: 20px;
+    padding: 20px;
 }
 
 .content .order_information .order_id {
     font-size: 24px;
     font-weight: bold;
-    padding: 30px;
+
 }
 
-.content .order_information .order_location,
-.content .order_information .order_ordered_date,
-.content .order_information .order_shipped_date {
-    padding: 30px;
+.content .order_information .order_summ,
+.content .order_information .order_summ_curr {
+    float: right;
+
+}
+
+.content .order_information .order_summ_curr {
+    line-height: 0;
 }
